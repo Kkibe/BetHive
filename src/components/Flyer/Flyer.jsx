@@ -26,7 +26,7 @@ export default function Flyer() {
 				<NavLink
 					to="/pay"
 					className="glass-btn primary"
-					onClick={() => setPrice(3000)}
+					onClick={() => setPrice(1500)}
 				>
 					GET VIP ACCESS
 				</NavLink>
