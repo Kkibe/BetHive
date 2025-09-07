@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import './PostDetails.scss';
+import './PostDetails.scss'; 
 import Profile from '../../assets/vip.jpg';
 import Logo from '../../assets/logo.png';
 import { Close, ErrorTwoTone, Verified } from '@mui/icons-material';
@@ -92,7 +92,7 @@ export default function PostDetail({ data, userData }) {
 					<Link
 						to={"/pay"}
 						className="glass-btn premium-btn"
-						onClick={() => setPrice(1)}
+						onClick={() => setPrice(650)}
 					>
 						GET VIP ACCESS
 					</Link>
